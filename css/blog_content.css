@@ -1,0 +1,135 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 50px;
+}
+
+header.sticky .cta-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    transition: .1s;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    display: none;
+    align-items: center;
+    margin-bottom: -40px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 95%;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+.blog-detail-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.blog-detail-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 80%;
+}
+
+.blog-detail-image {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+}
+
+.blog-detail-content {
+    padding: 20px;
+}
+
+.blog-detail-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.blog-detail-meta {
+    color: #999;
+    font-size: 0.875em;
+    margin-bottom: 20px;
+}
+
+.blog-detail-body {
+    color: #666;
+    line-height: 1.8;
+}
+
+.whatsapp-contact {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-contact:hover {
+    background-color: #128C7E;
+}
+
+@media (max-width: 768px) {
+    .blog-detail-card {
+        width: 100%;
+    }
+
+    .blog-detail-title {
+        font-size: 1.5em;
+    }
+
+    .blog-detail-meta {
+        font-size: 0.75em;
+    }
+
+    .blog-detail-body {
+        font-size: 0.875em;
+    }
+}

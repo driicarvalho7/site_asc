@@ -1,8 +1,3 @@
-<!--
-    ADRIANO DA SILVA DE CARVALHO
-    Nº USP: 13692400
--->
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -12,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ASC Digital</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,12 +20,13 @@
 
     <!--header design-->
     <header>
-        <a href="#" class="logo"> <img src="img/logo.png" class="header-logo" height="80px" style="padding-left: 30px; padding-top: 5px;"> </a>
+        <a href="#" class="logo"> <img src="img/logo.png" height="80px" style="padding-left: 30px; padding-top: 5px;"> </a>
 
         <ul class="navlist">
             <li><a href="#about">Sobre Nós</a></li>
             <li><a href="#portfolio">Clientes</a></li>
             <li><a href="#contact">Entre em Contato</a></li>
+            <li><a href="./blog/blog.php">Blog</a></li>
         </ul>
 
         <div class="bx bx-menu" id="menu-icon"></div>
@@ -81,7 +78,7 @@
             <h4>Gestor de Tráfego e Desenvolvedor 🧑🏻‍💻</h4>
             <p>Graduando em Sistemas de Informação na USP.</p>
             <p>+ 50K investidos em tráfego pago.</p>
-            <p>+ 2 anos de experiência no mercado de tecnologia.</p>
+            <p>+ 4 anos de experiência no mercado de tecnologia.</p>
             <p>Especialista em Meta e Google ADS.</p>
         </div>
 
@@ -94,7 +91,7 @@
             <p>Graduando em Marketing Digital na FIAP.</p>
             <p>+ 5K de leads impactados por suas copys.</p>
             <p>+ 60% de engajamento nas redes sociais.</p>
-            <p></p>
+            <p>Especialista em Meta Business Suite</p>
         </div>
         <div class="about-img-r">
             <img src="./img/nathy.jpeg">
@@ -110,33 +107,46 @@
 
         <div class="portfolio-content">
             <div class="row">
-                <img src="img/belga_logo.jpeg">
+                <img src="./img/imobiliario.svg" alt="Informative Illustration" style="width: 100%; height: auto;">
                 <div class="layer">
                     <h5 style="color: white;">Belga Imóveis</h5>
-                    <p style="color: white;">abcdefghijklmopqrstuvwxyz</p>
+                    <p style="color: white;">Uma imobiliária com mais de 25 anos de atuação em Atibaia, São Paulo.</p>
+                    <p style="color: white;">.</p>
+                    <p style="color: white;">.</p>
+                    <p style="color: white;">Social Midia - Trafego Pago - CRM</p>
                     <p style="color: white;">⭐️⭐️⭐️⭐️⭐️</p>
-                    <a href="https://www.belgaimoveisatibaia.com.br/"
-                        target="_blank"><i class="bx bx-link-external" style="color: white;"></i></a>
+                    <a href="https://www.instagram.com/belgaimoveisatibaia_/"
+                        target="_blank"><i class="bx bx-link-external" style="color: white;"></i>
+                    </a>
                 </div>
             </div>
 
             <div class="row">
-                <img src="img/belga_logo.jpeg">
+                <img src="./img/estetica.svg" alt="Informative Illustration" style="width: 100%; height: auto;">
                 <div class="layer">
-                    <h5 style="color: white;">Centro Estético Renatas</h5>
-                    <p style="color: white;">abcdefghijklmopqrstuvwxyz</p>
+                    <h5 style="color: white;">Centro Estético Renattas</h5>
+                    <p style="color: white;">Renata Murer, uma esteticista com 15 anos de atuação em Nova Odessa, São Paulo</p>
+                    <p style="color: white;">.</p>
+                    <p style="color: white;">.</p>
+                    <p style="color: white;">Social Midia - Trafego Pago</p>
                     <p style="color: white;">⭐️⭐️⭐️⭐️⭐️</p>
+                    <a href="https://www.instagram.com/centroesteticorenatamurer/"
+                        target="_blank"><i class="bx bx-link-external" style="color: white;"></i>
+                    </a>
                 </div>
             </div>
 
             <div class="row">
-                <img src="img/belga_logo.jpeg">
+                <img src="./img/marketing.svg" alt="Informative Illustration" style="width: 100%; height: auto;">
                 <div class="layer">
-                    <h5 style="color: white;">Ferraz Cred</h5>
-                    <p style="color: white;">abcdefghijklmopqrstuvwxyz</p>
+                    <h5 style="color: white;">Executa Trade Marketing</h5>
+                    <p style="color: white;">Desenvolvimento de ERP Financeiro com integração de pagamentos com o Banco Bradesco.</p>
+                    <p style="color: white;">.</p>
+                    <p style="color: white;">.</p>
                     <p style="color: white;">⭐️⭐️⭐️⭐️⭐️</p>
-                    <a href="https://secretsprofessional.com.br/"
-                        target="_blank"><i class="bx bx-link-external" style="color: white;"></i></a>
+                    <a href="https://www.instagram.com/centroesteticorenatamurer/"
+                        target="_blank"><i class="bx bx-link-external" style="color: white;"></i>
+                    </a>
                 </div>
             </div>
         </div>

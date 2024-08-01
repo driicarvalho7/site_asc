@@ -1,0 +1,10 @@
+config/db_connection.php
+# Ignorar arquivos de conexão com o banco de dados
+config/db_connection.php
+
+# Outros arquivos e diretórios a serem ignorados
+node_modules/
+dist/
+*.log
+.vscode/
+.env
